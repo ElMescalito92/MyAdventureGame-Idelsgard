@@ -319,7 +319,7 @@ def start_adventure():
     hero_name = []
     weapon_list = random.choice(["Axe of Nhosneruh",
                                  "Axe of Ettun", "Axe of Eruh"])
-    enemy_option = random.choice(["Ogre", "Wicked Whore", "Water Witch",
+    enemy_option = random.choice(["Ogre", "Wicked Witch", "Water Witch",
                                   "Witcher", "Nogron"])
     dwarf_name = random.choice(["Heldemir", "Gimli", "Gloin", "Domli"])
     ask_name(weapon, enemy_option, weapon_list, hero_name, dwarf_name)
@@ -330,7 +330,7 @@ def start_adventure_title():
     hero_name = []
     weapon_list = random.choice(["Axe of Nhosneruh",
                                  "Axe of Ettun", "Axe of Eruh"])
-    enemy_option = random.choice(["Ogre", "Wicked Whore", "Water Witch",
+    enemy_option = random.choice(["Ogre", "Wicked Witch", "Water Witch",
                                   "Witcher", "Nogron"])
     dwarf_name = random.choice(["Heldemir", "Gimli", "Gloin", "Domli"])
     title_screen()
